@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  react-reading:
+    build:
+      context: .
+    image: node18
+    container_name: react-reading
+    ports:
+      - 3000:3000
+    tty: true
+    volumes:
+      - .:/workdir
