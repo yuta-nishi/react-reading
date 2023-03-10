@@ -1,11 +1,11 @@
 version: '3'
 
 services:
-  react-reading:
+  react-development:
     build:
       context: .
     image: node18
-    container_name: react-reading
+    container_name: react-development
     ports:
       - 3000:3000
     tty: true

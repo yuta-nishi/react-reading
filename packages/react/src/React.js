@@ -1,3 +1,3 @@
 import ReactVersion from 'shared/ReactVersion';
 
-ReactVersion;
+export { ReactVersion as version };
